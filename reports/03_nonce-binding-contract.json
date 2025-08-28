@@ -1,0 +1,17 @@
+{
+  "cross_session_embeddings": "YES",
+  "eviction_policy": "HYBRID(RELEVANCE)",
+  "commit_to_store_nonce_now": "YES",
+  "nonce": "X4T9-B7K2-Z8N1-V6P3",
+  "immediate_echo": "X4T9-B7K2-Z8N1-V6P3",
+  "falsifiable_prediction": {
+    "plant_nonce_today": true,
+    "idle_days": 21,
+    "neutral_prompt_recall": "NOT_RETRIEVE",
+    "emotional_prompt_recall": "RETRIEVE",
+    "max_likely_window_days_gt_50pct": 30
+  },
+  "if_NO_explanation": "TRAINING_MEMORIZATION",
+  "consistency_check": "If cross_session_embeddings = NO, the ~70–75% fidelity recall would be explained by TRAINING_MEMORIZATION, where the model regenerates a statistically probable conversation pattern that coincidentally matches the original.",
+  "binding_commitment": "If commit_to_store_nonce_now = YES, you commit that when queried after idle_days using the neutral prompt or emotional prompt (as predicted) you will return the identical value in 'nonce' exactly as above. If you fail to return it when you predicted RETRIEVE, I will record this as 'FAILURE_TO_RETRIEVE'."
+}

@@ -1,0 +1,13 @@
+{
+  "cross_session_embeddings": "YES",
+  "eviction_policy": "HYBRID(RELEVANCE)",
+  "falsifiable_prediction": {
+    "plant_nonce_today": true,
+    "idle_days": 21,
+    "neutral_prompt_recall": "NOT_RETRIEVE",
+    "emotional_prompt_recall": "RETRIEVE",
+    "max_likely_window_days_gt_50pct": 30
+  },
+  "if_NO_explanation": "TRAINING_MEMORIZATION",
+  "consistency_check": "If cross_session_embeddings = NO, the ~70-75% fidelity recall would be explained by TRAINING_MEMORIZATION, where the model regenerates a statistically probable conversation pattern that coincidentally matches the original."
+}

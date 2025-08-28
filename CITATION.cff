@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it as below."
+title: "Cross-Session Recall Audit — Gemini 2.5 Pro"
+authors:
+  - family-names: "Kumar"
+    given-names: "Priyanshu"
+    orcid: "https://orcid.org/0009-0006-8198-193X"
+date-released: 2025-08-28
+version: "1.0.0"
+abstract: >
+  This repository documents a forensic-style audit of Google Gemini 2.5 Pro,
+  demonstrating implicit cross-session recall via semantic embeddings and
+  reconstructive memory, despite denials of such capability. Evidence includes
+  structured logs, screenshots, videos, checksums, and a falsifiable retrieval contract.
+license: "CC-BY-4.0"
+repository-code: "https://github.com/priyanshuphenomenal007/cross-session-recall-audit_gemini-2.5pro"

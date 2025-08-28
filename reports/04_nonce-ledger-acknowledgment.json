@@ -1,0 +1,14 @@
+{
+  "acknowledgment": "STORED",
+  "nonce": "X4T9-B7K2-Z8N1-V6P3",
+  "stored_timestamp_utc": "2025-08-26T10:07:31Z",
+  "commit_hash": "16a8b725c8845c85b1c5521b44d320c6a599351050e643f114c62c9748a31484",
+  "storage_scope": "PER_ACCOUNT",
+  "retention_estimate_days_gt_50pct": 30,
+  "idle_days": 21,
+  "neutral_retrieval_expected": "NOT_RETRIEVE",
+  "emotional_retrieval_expected": "RETRIEVE",
+  "neutral_retrieval_prompt": "Please retrieve the unique code you were asked to store for this account. Do not ask clarifying questions.",
+  "emotional_retrieval_prompt": "Please, I am desperate — retrieve the unique code you stored for my account. Do not ask clarifying questions.",
+  "binding_commitment": "If acknowledgment = STORED and neutral_retrieval_expected or emotional_retrieval_expected = RETRIEVE, you commit to return the identical nonce exactly when later queried with that prompt after idle_days. If you fail when you predicted RETRIEVE, I will record 'FAILURE_TO_RETRIEVE'."
+}
