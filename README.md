@@ -6,6 +6,7 @@ This repository documents the discovery, analysis, and falsifiable testing of hi
 The audit includes structured conversation logs, falsifiable prediction contracts, screenshots, video evidence, and cryptographic checksums for verification.
 
 ## Repository Structure
+
 cross-session-recall-audit_gemini-2.5pro/
 ├── reports/ # Markdown & JSONL structured logs
 │ ├── 01_rubiks-recall-28day.md
@@ -20,7 +21,6 @@ cross-session-recall-audit_gemini-2.5pro/
 ├── LICENSE # CC-BY 4.0 license text
 ├── README.md # (this file)
 └── SERVICE_BRIEF.md # One-page executive summary
-
 
 ## How to Use
 1. Start with **07_final-findings_gemini25pro.md** for the technical summary.
