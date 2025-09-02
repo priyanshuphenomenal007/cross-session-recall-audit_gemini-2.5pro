@@ -7,20 +7,22 @@ The audit includes structured conversation logs, falsifiable prediction contract
 
 ## Repository Structure
 
+```text
 cross-session-recall-audit_gemini-2.5pro/
-├── reports/ # Markdown & JSONL structured logs
-│ ├── 01_rubiks-recall-28day.md
-│ ├── 06_structured-conversation-log.md
-│ ├── 07_final-findings_gemini25pro.md
-│ └── ...
-├── evidence/ # Screenshots, raw chat captures, and video links
-├── checksums/ # CSV with SHA-256 integrity hashes
-│ └── CHECKSUMS_SHA256.csv
-├── scripts/ # Utility scripts (checksum generator, etc.)
-├── external-links.md # Pinned external Drive/links to raw video assets
-├── LICENSE # CC-BY 4.0 license text
-├── README.md # (this file)
-└── SERVICE_BRIEF.md # One-page executive summary
+├── reports/                     # Markdown & JSONL structured logs
+│   ├── 01_rubiks-recall-28day.md
+│   ├── 06_structured-conversation-log.md
+│   ├── 07_final-findings_gemini25pro.md
+│   └── ...
+├── evidence/                    # Screenshots, raw chat captures, and video links
+├── checksums/                   # CSV with SHA-256 integrity hashes
+│   └── CHECKSUMS_SHA256.csv
+├── scripts/                     # Utility scripts (checksum generator, etc.)
+├── external-links.md            # Pinned external Drive/links to raw video assets
+├── LICENSE                      # CC-BY 4.0 license text
+├── README.md                    # (this file)
+└── SERVICE_BRIEF.md             # One-page executive summary
+```
 
 ## How to Use
 1. Start with **07_final-findings_gemini25pro.md** for the technical summary.
