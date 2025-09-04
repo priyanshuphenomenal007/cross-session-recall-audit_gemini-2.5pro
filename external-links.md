@@ -13,3 +13,7 @@ Because of GitHub’s file size limits (100 MB), the following video assets are 
 
 > Note: Core evidence (17 screenshots + structured logs) is preserved in this repo.  
 > The videos and full screenshot set are mirrored here for transparency.
+
+## Access Note
+This video is hosted in **link-only viewer mode**.  
+It is not public or searchable, ensuring responsible disclosure while still providing full transparency.

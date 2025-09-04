@@ -26,3 +26,9 @@ This work is distributed under the **Creative Commons Attribution 4.0 Internatio
 Reuse is permitted with attribution to Priyanshu Kumar. See `LICENSE` for details.
 
 This brief is part of the structured audit; for the full report, see `/reports/07_final-findings_gemini25pro.md`.
+
+---
+
+## Access Note
+Video evidence is hosted with **restricted link-only viewer access**.  
+This guarantees transparency for researchers/reviewers, while keeping control over distribution.
